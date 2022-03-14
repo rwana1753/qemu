@@ -204,6 +204,7 @@ config REALVIEW
     select PL181  # display
     select PL310  # cache controller
     select VERSATILE_I2C
+    select KINGKONG_I2C
     select DS1338 # I2C RTC+NVRAM
     select USB_OHCI
 
